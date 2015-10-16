@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5712F31BD06FBF006646CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5712F21BD06FBF006646CC /* AppDelegate.swift */; };
+		4C5712F51BD06FBF006646CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5712F41BD06FBF006646CC /* ViewController.swift */; };
+		4C5712F81BD06FBF006646CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712F61BD06FBF006646CC /* Main.storyboard */; };
+		4C5712FA1BD06FBF006646CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712F91BD06FBF006646CC /* Assets.xcassets */; };
+		4C5712FD1BD06FBF006646CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712FB1BD06FBF006646CC /* LaunchScreen.storyboard */; };
+		4C5713081BD06FBF006646CC /* HealthKitProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5713071BD06FBF006646CC /* HealthKitProtoTests.swift */; };
+		4C5713131BD06FBF006646CC /* HealthKitProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5713121BD06FBF006646CC /* HealthKitProtoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5713041BD06FBF006646CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5712E71BD06FBF006646CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5712EE1BD06FBF006646CC;
+			remoteInfo = HealthKitProto;
+		};
+		4C57130F1BD06FBF006646CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5712E71BD06FBF006646CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5712EE1BD06FBF006646CC;
+			remoteInfo = HealthKitProto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5712EF1BD06FBF006646CC /* HealthKitProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthKitProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5712F21BD06FBF006646CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C5712F41BD06FBF006646CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C5712F71BD06FBF006646CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5712F91BD06FBF006646CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5712FC1BD06FBF006646CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5712FE1BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5713031BD06FBF006646CC /* HealthKitProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5713071BD06FBF006646CC /* HealthKitProtoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitProtoTests.swift; sourceTree = "<group>"; };
+		4C5713091BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C57130E1BD06FBF006646CC /* HealthKitProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5713121BD06FBF006646CC /* HealthKitProtoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitProtoUITests.swift; sourceTree = "<group>"; };
+		4C5713141BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5712EC1BD06FBF006646CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5713001BD06FBF006646CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C57130B1BD06FBF006646CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5712E61BD06FBF006646CC = {
+			isa = PBXGroup;
+			children = (
+				4C5712F11BD06FBF006646CC /* HealthKitProto */,
+				4C5713061BD06FBF006646CC /* HealthKitProtoTests */,
+				4C5713111BD06FBF006646CC /* HealthKitProtoUITests */,
+				4C5712F01BD06FBF006646CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5712F01BD06FBF006646CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5712EF1BD06FBF006646CC /* HealthKitProto.app */,
+				4C5713031BD06FBF006646CC /* HealthKitProtoTests.xctest */,
+				4C57130E1BD06FBF006646CC /* HealthKitProtoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5712F11BD06FBF006646CC /* HealthKitProto */ = {
+			isa = PBXGroup;
+			children = (
+				4C5712F21BD06FBF006646CC /* AppDelegate.swift */,
+				4C5712F41BD06FBF006646CC /* ViewController.swift */,
+				4C5712F61BD06FBF006646CC /* Main.storyboard */,
+				4C5712F91BD06FBF006646CC /* Assets.xcassets */,
+				4C5712FB1BD06FBF006646CC /* LaunchScreen.storyboard */,
+				4C5712FE1BD06FBF006646CC /* Info.plist */,
+			);
+			path = HealthKitProto;
+			sourceTree = "<group>";
+		};
+		4C5713061BD06FBF006646CC /* HealthKitProtoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5713071BD06FBF006646CC /* HealthKitProtoTests.swift */,
+				4C5713091BD06FBF006646CC /* Info.plist */,
+			);
+			path = HealthKitProtoTests;
+			sourceTree = "<group>";
+		};
+		4C5713111BD06FBF006646CC /* HealthKitProtoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5713121BD06FBF006646CC /* HealthKitProtoUITests.swift */,
+				4C5713141BD06FBF006646CC /* Info.plist */,
+			);
+			path = HealthKitProtoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5712EE1BD06FBF006646CC /* HealthKitProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5713171BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProto" */;
+			buildPhases = (
+				4C5712EB1BD06FBF006646CC /* Sources */,
+				4C5712EC1BD06FBF006646CC /* Frameworks */,
+				4C5712ED1BD06FBF006646CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthKitProto;
+			productName = HealthKitProto;
+			productReference = 4C5712EF1BD06FBF006646CC /* HealthKitProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5713021BD06FBF006646CC /* HealthKitProtoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C57131A1BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProtoTests" */;
+			buildPhases = (
+				4C5712FF1BD06FBF006646CC /* Sources */,
+				4C5713001BD06FBF006646CC /* Frameworks */,
+				4C5713011BD06FBF006646CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5713051BD06FBF006646CC /* PBXTargetDependency */,
+			);
+			name = HealthKitProtoTests;
+			productName = HealthKitProtoTests;
+			productReference = 4C5713031BD06FBF006646CC /* HealthKitProtoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C57130D1BD06FBF006646CC /* HealthKitProtoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C57131D1BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProtoUITests" */;
+			buildPhases = (
+				4C57130A1BD06FBF006646CC /* Sources */,
+				4C57130B1BD06FBF006646CC /* Frameworks */,
+				4C57130C1BD06FBF006646CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5713101BD06FBF006646CC /* PBXTargetDependency */,
+			);
+			name = HealthKitProtoUITests;
+			productName = HealthKitProtoUITests;
+			productReference = 4C57130E1BD06FBF006646CC /* HealthKitProtoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5712E71BD06FBF006646CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HealthKit;
+				TargetAttributes = {
+					4C5712EE1BD06FBF006646CC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					4C5713021BD06FBF006646CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4C5712EE1BD06FBF006646CC;
+					};
+					4C57130D1BD06FBF006646CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 4C5712EE1BD06FBF006646CC;
+					};
+				};
+			};
+			buildConfigurationList = 4C5712EA1BD06FBF006646CC /* Build configuration list for PBXProject "HealthKitProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5712E61BD06FBF006646CC;
+			productRefGroup = 4C5712F01BD06FBF006646CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5712EE1BD06FBF006646CC /* HealthKitProto */,
+				4C5713021BD06FBF006646CC /* HealthKitProtoTests */,
+				4C57130D1BD06FBF006646CC /* HealthKitProtoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5712ED1BD06FBF006646CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5712FD1BD06FBF006646CC /* LaunchScreen.storyboard in Resources */,
+				4C5712FA1BD06FBF006646CC /* Assets.xcassets in Resources */,
+				4C5712F81BD06FBF006646CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5713011BD06FBF006646CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C57130C1BD06FBF006646CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5712EB1BD06FBF006646CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5712F51BD06FBF006646CC /* ViewController.swift in Sources */,
+				4C5712F31BD06FBF006646CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5712FF1BD06FBF006646CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5713081BD06FBF006646CC /* HealthKitProtoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C57130A1BD06FBF006646CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5713131BD06FBF006646CC /* HealthKitProtoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5713051BD06FBF006646CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5712EE1BD06FBF006646CC /* HealthKitProto */;
+			targetProxy = 4C5713041BD06FBF006646CC /* PBXContainerItemProxy */;
+		};
+		4C5713101BD06FBF006646CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5712EE1BD06FBF006646CC /* HealthKitProto */;
+			targetProxy = 4C57130F1BD06FBF006646CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5712F61BD06FBF006646CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5712F71BD06FBF006646CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5712FB1BD06FBF006646CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5712FC1BD06FBF006646CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5713151BD06FBF006646CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C5713161BD06FBF006646CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5713181BD06FBF006646CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthKitProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C5713191BD06FBF006646CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthKitProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C57131B1BD06FBF006646CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthKitProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitProto.app/HealthKitProto";
+			};
+			name = Debug;
+		};
+		4C57131C1BD06FBF006646CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HealthKitProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitProto.app/HealthKitProto";
+			};
+			name = Release;
+		};
+		4C57131E1BD06FBF006646CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealthKitProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthKitProto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4C57131F1BD06FBF006646CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HealthKitProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HK.app.HealthKitProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HealthKitProto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5712EA1BD06FBF006646CC /* Build configuration list for PBXProject "HealthKitProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5713151BD06FBF006646CC /* Debug */,
+				4C5713161BD06FBF006646CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5713171BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5713181BD06FBF006646CC /* Debug */,
+				4C5713191BD06FBF006646CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C57131A1BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProtoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C57131B1BD06FBF006646CC /* Debug */,
+				4C57131C1BD06FBF006646CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C57131D1BD06FBF006646CC /* Build configuration list for PBXNativeTarget "HealthKitProtoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C57131E1BD06FBF006646CC /* Debug */,
+				4C57131F1BD06FBF006646CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5712E71BD06FBF006646CC /* Project object */;
+}
