@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C5712F31BD06FBF006646CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5712F21BD06FBF006646CC /* AppDelegate.swift */; };
-		4C5712F51BD06FBF006646CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5712F41BD06FBF006646CC /* ViewController.swift */; };
 		4C5712F81BD06FBF006646CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712F61BD06FBF006646CC /* Main.storyboard */; };
 		4C5712FA1BD06FBF006646CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712F91BD06FBF006646CC /* Assets.xcassets */; };
 		4C5712FD1BD06FBF006646CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5712FB1BD06FBF006646CC /* LaunchScreen.storyboard */; };
@@ -44,11 +43,10 @@
 /* Begin PBXFileReference section */
 		4C5712EF1BD06FBF006646CC /* HealthKitProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthKitProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5712F21BD06FBF006646CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C5712F41BD06FBF006646CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C5712F71BD06FBF006646CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5712F91BD06FBF006646CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5712FC1BD06FBF006646CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4C5712FE1BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5712FE1BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = HealthKitProto/Info.plist; sourceTree = "<group>"; };
 		4C5713031BD06FBF006646CC /* HealthKitProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5713071BD06FBF006646CC /* HealthKitProtoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitProtoTests.swift; sourceTree = "<group>"; };
 		4C5713091BD06FBF006646CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +61,7 @@
 		4C57132A1BD575E7006646CC /* AddWorkoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWorkoutTableViewController.swift; sourceTree = "<group>"; };
 		4C57132C1BD57607006646CC /* DatePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
 		4C57132E1BD5765B006646CC /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		4C5713301BD5765B006646CC /* HealthKitProto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HealthKitProto.entitlements; sourceTree = "<group>"; };
+		4C5713301BD5765B006646CC /* HealthKitProto.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = HealthKitProto.entitlements; path = HealthKitProto/HealthKitProto.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +95,10 @@
 			children = (
 				4C57132E1BD5765B006646CC /* HealthKit.framework */,
 				4C5713281BD575E2006646CC /* HKTutorial.entitlements */,
+				4C5712FE1BD06FBF006646CC /* Info.plist */,
+				4C5713301BD5765B006646CC /* HealthKitProto.entitlements */,
 				4C5712F11BD06FBF006646CC /* HealthKitProto */,
+				E1F5ABFE1BD57F06000A0F36 /* Extra Files */,
 				4C5713061BD06FBF006646CC /* HealthKitProtoTests */,
 				4C5713111BD06FBF006646CC /* HealthKitProtoUITests */,
 				4C5712F01BD06FBF006646CC /* Products */,
@@ -117,19 +118,13 @@
 		4C5712F11BD06FBF006646CC /* HealthKitProto */ = {
 			isa = PBXGroup;
 			children = (
-				4C5713301BD5765B006646CC /* HealthKitProto.entitlements */,
 				4C5712F21BD06FBF006646CC /* AppDelegate.swift */,
-				4C5712F41BD06FBF006646CC /* ViewController.swift */,
-				4C57132A1BD575E7006646CC /* AddWorkoutTableViewController.swift */,
-				4C57132C1BD57607006646CC /* DatePickerCell.swift */,
 				4C5713201BD5759D006646CC /* MasterViewController.swift */,
 				4C5713221BD575A6006646CC /* HealthManager.swift */,
-				4C5713261BD575BF006646CC /* WorkoutsTableViewController.swift */,
 				4C5712F61BD06FBF006646CC /* Main.storyboard */,
 				4C5712F91BD06FBF006646CC /* Assets.xcassets */,
 				4C5713241BD575B5006646CC /* ProfileViewController.swift */,
 				4C5712FB1BD06FBF006646CC /* LaunchScreen.storyboard */,
-				4C5712FE1BD06FBF006646CC /* Info.plist */,
 			);
 			path = HealthKitProto;
 			sourceTree = "<group>";
@@ -150,6 +145,17 @@
 				4C5713141BD06FBF006646CC /* Info.plist */,
 			);
 			path = HealthKitProtoUITests;
+			sourceTree = "<group>";
+		};
+		E1F5ABFE1BD57F06000A0F36 /* Extra Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5713261BD575BF006646CC /* WorkoutsTableViewController.swift */,
+				4C57132C1BD57607006646CC /* DatePickerCell.swift */,
+				4C57132A1BD575E7006646CC /* AddWorkoutTableViewController.swift */,
+			);
+			name = "Extra Files";
+			path = HealthKitProto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C57132B1BD575E7006646CC /* AddWorkoutTableViewController.swift in Sources */,
-				4C5712F51BD06FBF006646CC /* ViewController.swift in Sources */,
 				4C5713271BD575BF006646CC /* WorkoutsTableViewController.swift in Sources */,
 				4C57132D1BD57607006646CC /* DatePickerCell.swift in Sources */,
 				4C5712F31BD06FBF006646CC /* AppDelegate.swift in Sources */,
